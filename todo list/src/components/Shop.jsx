@@ -11,6 +11,7 @@ const Shop = () => {
     <div>
       <h1>Welcome to my Shop</h1>
       <ProductItems product={product}/>
+      {product.name} - {product.price} - {product.Description}
     </div>
   );
 };
